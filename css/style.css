@@ -7,7 +7,12 @@ div.my-border {
     border: 1px solid red;
 }
 
-.my-jumbotron {
-    height: 40rem;
+.my-bg-green {
     background-color: rgba(26, 188, 156, 255);
 }
+
+.my-height {
+    height: 40rem;
+}
+
+/* rgba(58,84,109,255) */
