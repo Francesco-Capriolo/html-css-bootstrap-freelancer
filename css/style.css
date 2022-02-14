@@ -60,14 +60,19 @@ div.portfolio-img img {
     width: 100%;
 }
 
-div.info-title div.my-border {
-    border: 1px solid red;
+/* contact */
+
+.input-group input,
+.input-group textarea {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
-div.my-bd-blue {
-    border: 1px solid rgb(17, 0, 255);
+.input-group textarea {
+    height: 10rem;
 }
-
 
 .my-bg-footer-top {
     background-color: #3a546d;
