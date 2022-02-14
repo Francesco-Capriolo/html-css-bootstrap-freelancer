@@ -28,8 +28,10 @@ header {
 }
 
 h1,
-div.info-title {
+h2,
+h5 {
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .ms-star {
@@ -45,7 +47,6 @@ div.ms-star i {
     width: 5rem;
     height: .3rem;
     border-radius: 20px;
-    background-color: white;
 }
 
 div.info-title div.my-border {
