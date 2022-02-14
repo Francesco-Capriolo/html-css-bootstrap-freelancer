@@ -1,5 +1,18 @@
 header {
     background-color: rgba(44, 62, 80, 255);
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 
 /* section {
@@ -15,7 +28,8 @@ div.my-bd-blue {
     border: 1px solid rgb(17, 0, 255);
 }
 
-.my-bg-green {
+#jumbotron,
+#about {
     background-color: rgba(26, 188, 156, 255);
 }
 
