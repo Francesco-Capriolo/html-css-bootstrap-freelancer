@@ -1,3 +1,5 @@
+/* header */
+
 header {
     background-color: rgba(44, 62, 80, 255);
     text-transform: uppercase;
@@ -15,12 +17,38 @@ header {
     color: white;
 }
 
-/* section {
-    height: 30rem;
-} */
+/* jumbotron */
 
+.jumbo-box {
+    margin: 0 auto;
+}
 
-div.my-border {
+.ms-avatar {
+    width: 20rem;
+}
+
+h1,
+div.info-title {
+    text-transform: uppercase;
+}
+
+.ms-star {
+    height: 3rem;
+}
+
+div.ms-star i {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.line-star {
+    width: 5rem;
+    height: .3rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+div.info-title div.my-border {
     border: 1px solid red;
 }
 
